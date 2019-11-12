@@ -1,15 +1,72 @@
 body{
 	overflow-y: scroll;
+	min-width:320px;
+	max-width: 1400px;
+	margin:auto;
+}
+.lastli{
+	border-left: none;
+	font-size: 20px;
+}
+.lastli::before{
+	position: absolute;
+	top: 0;
+	right: 0;
+	content: "";
+	display: block;
+	width: 75%;
+	background-color:
+	#f72210;
+	border-left: 12px solid
+	white;
+	border-top: 13px solid
+	#f72210;
+}
+.searchli {
+	padding-right: 0;
+	flex: 0.8;
+	padding-top: 0.75rem;
+}
+.searchli input{
+	border: none;
+	text-align: right;
+	width: 100%;
+}
+.li {
+	flex:1;
+	padding-right: 0;
+	padding-left: 0;
+	text-align: center;
+}
+
+.li1{
+	flex:0.4;
+	padding-right: 0;
+	padding-left: 0;
+	text-align: center;
+}
+.li2{
+	flex:2;
+	padding-right: 0;
+	padding-left: 0;
+	text-align: center;
 }
 .container-mod{
 	max-width: 1275px;
+	width: 98vw;
 	margin-left: auto;
 	margin-right: auto;
 }
 .header-top{
 	height: 95px;
 	background-color: #f72210;
-	padding: 20px 10px 15px;
+	padding: 20px 0px 15px;
+	margin: 0;
+}
+.header-bottom{
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .line-header{
@@ -23,11 +80,61 @@ body{
 	display: inline;
 }
 #div-date span date{
-
-font: 16px/34px "Roboto Condensed",sans-serif;
-color: white;
+	font: 16px/34px "Roboto Condensed",sans-serif;
+	color: white;
 }
 #logo-svg{
-	width: 396px;
-	height: 60px;
+	width: 20vw;
+	height: auto;
+}
+.navlist {
+	padding: 0;
+}
+.signinbtn a {
+	color: #fff;
+	font-weight: 700;
+	font-size: 1.5vw;
+}
+.signinbtn a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.suscribebtn a {
+	padding-left: .6vw;
+	padding-right: .6vw;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #f00;
+	background-color: #fff;
+	font-weight: 700;
+	font-size: 1.5vw;
+}
+.suscribebtn a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .hide-med {
+  	display: none;
+  }
+  .header-top{
+		height: 55px;
+		background-color: #f72210;
+		padding: 0;
+		margin: 0;
+	}
+	.signsus {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+		max-width: 50%;
+		width: 50%;
+		margin-left: 25%;
+	}
+	.bars {
+		color: #fff;
+		margin-left: 1vw;
+	}
 }

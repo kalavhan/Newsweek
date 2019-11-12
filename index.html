@@ -8,39 +8,46 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="js/jquery.js"></script>
+  	<script src="js/all.js"></script>
 		<script src="js/bootstrap.js"></script>
 	</head>
 	<body>
 		<div class="container-mod">
 			<header id="header">
-				<div class="row header-top">
-					<div id="div-date" class="col-lg-2 align-text-bottom container-item-nav">
+				<div class="row header-top col-md-12">
+					<div id="div-date" class="col-md-3 hide-med align-text-bottom container-item-nav">
 						<span class="align-bottom line-header"> <date>Fri, Nov 01, 2019</date></span>
 					</div>
-					<div class="col-lg-8 text-center">
+					<div class="col-sm-6 col-md-6 text-center">
 						<div class="row justify-content-center align-self-center align-items-center container-item-nav">
 							<img id="logo-svg" class="" src="svg/logo.svg" alt="logo">
 						</div>
 					</div>
-					<div class="col-lg-2 container-item-nav">
-							<span class="align-bottom line-header"><a href="#">SIGN IN</a></span>
-							<span class="align-bottom line-header"><a href="#">SUSCRIBE</a></span>
+					<div class="signsus col-sm-6 col-md-3 container-item-nav text-right">
+							<span class="align-bottom line-header signinbtn"><a href="#">SIGN IN</a></span>
+							<span class="align-bottom line-header suscribebtn"><a href="#">SUSCRIBE ></a></span>
+							<span class="hide-lg bars">
+								<i class="fas fa-bars"></i>
+							</span>
 					</div>
 				</div>
-				<div class="row header-bottom">
-					<ul class="list-group list-group-horizontal col-lg-12">
-				    <li class="list-group-item">U.S</li>
-				    <li class="list-group-item">World</li>
-				    <li class="list-group-item">Bussines</li>
-				    <li class="list-group-item">Tech & Science</li>
-				    <li class="list-group-item">Culture</li>
-				    <li class="list-group-item">Newsgeek</li>
-				    <li class="list-group-item">Sports</li>
-				    <li class="list-group-item">Health</li>
-				    <li class="list-group-item">Opinion</li>
-				    <li class="list-group-item">Vantage</li>
-				    <li class="list-group-item"><input type="text" name="searchbar"></li>
-				    <li class="list-group-item col-lg-1"></li>
+				<div class="row header-bottom col-md-12 hide-med">
+					<ul class="navlist list-group list-group-horizontal col-md-12">
+				    <li class="list-group-item li1">U.S</li>
+				    <li class="list-group-item li">World</li>
+				    <li class="list-group-item li">Bussines</li>
+				    <li class="list-group-item li2">Tech & Science</li>
+				    <li class="list-group-item li">Culture</li>
+				    <li class="list-group-item li">Newsgeek</li>
+				    <li class="list-group-item li">Sports</li>
+				    <li class="list-group-item li">Health</li>
+				    <li class="list-group-item li">Opinion</li>
+				    <li class="list-group-item li">Vantage</li>
+				    <li class="list-group-item searchli"><input type="text" name="searchbar" placeholder="search"></li>
+				    <li class="list-group-item col-lg-1 lastli li">
+				    	<i class="fas fa-search"></i>
+				    </li>
 				  </ul>
 				</div>
 			</header><!-- /header -->
