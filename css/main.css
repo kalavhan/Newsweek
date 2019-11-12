@@ -5,6 +5,7 @@ body{
 	margin:auto;
 }
 .lastli{
+	border-top: none;
 	border-left: none;
 	font-size: 20px;
 }
@@ -136,5 +137,44 @@ body{
 	.bars {
 		color: #fff;
 		margin-left: 1vw;
+	}
+}
+@media screen and (max-width: 767px) {
+	.signsus {
+		display: flex;
+		align-items: right;
+		justify-content: right;
+		align-content: center;
+		max-width: 50%;
+		width: 50%;
+		margin-left:0;
+	}
+	.logsus{
+		width: 50%;
+		max-width: 50%;
+	}
+	.bars {
+		color: #fff;
+		margin-left: 1vw;
+	}
+	#logo-svg{
+		width: 30vw;
+		height: auto;
+	}
+	.signinbtn a {
+		color: #fff;
+		font-weight: 700;
+		font-size: 2.7vw;
+		margin-right: 1vw;
+	}
+	.suscribebtn a {
+		padding-left: .6vw;
+		padding-right: .6vw;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		color: #f00;
+		background-color: #fff;
+		font-weight: 700;
+		font-size: 2.7vw;
 	}
 }
