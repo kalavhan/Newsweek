@@ -1,0 +1,33 @@
+body{
+	overflow-y: scroll;
+}
+.container-mod{
+	max-width: 1275px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header-top{
+	height: 95px;
+	background-color: #f72210;
+	padding: 20px 10px 15px;
+}
+
+.line-header{
+	line-height: 95px;
+}
+
+.container-item-nav{
+	height: 100%;
+}
+.inline-e{
+	display: inline;
+}
+#div-date span date{
+
+font: 16px/34px "Roboto Condensed",sans-serif;
+color: white;
+}
+#logo-svg{
+	width: 396px;
+	height: 60px;
+}
