@@ -4,6 +4,9 @@ body{
 	max-width: 1400px;
 	margin:auto;
 }
+.card {
+	border:0;
+}
 .lastli{
 	border-top: none;
 	border-left: none;
@@ -115,6 +118,50 @@ body{
 	text-decoration: none;
 }
 
+.noborder {
+	border:0;
+	margin-bottom: 30px;
+}
+
+.img-list-container {
+	background-color: transparent;
+	display: flex;
+	padding: 0;
+	align-items: center;
+	justify-content: center;
+}
+
+.img-list {
+	height: 60px;
+	width: 60px;
+}
+
+.list-description {
+	width: 80%;
+	align-self: flex-end;
+}
+.list-description h4{
+	font-size: 1vw;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.culture{
+	background-color: #f4f5f7;
+}
+.img-list-container-new {
+	padding:0;
+	width: 22%;
+}
+.img-list-new {
+	height: auto;
+	width: 99%;
+}
+
+.list-description-new {
+	width: 65%;
+	align-self: flex-end;
+}
 @media screen and (max-width: 1000px) {
   .hide-med {
   	display: none;
