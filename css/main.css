@@ -4,6 +4,21 @@ body{
 	max-width: 1400px;
 	margin:auto;
 }
+.logo-title {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	font-size: 22px;
+}
+.n-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f00;
+	height: 25px;
+	width: 25px;
+	margin-right: 3px;
+}
 .logo-container{
 		justify-content: center;
 	}
