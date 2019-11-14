@@ -4,6 +4,42 @@ body{
 	max-width: 1400px;
 	margin:auto;
 }
+.seeall {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 55px;
+	background-color: #d3d3d3;
+	color: #000;
+	margin-bottom: 15px;
+}
+
+.description-badges h5{
+	color: #f00;
+}
+
+.description-badges h5 span{
+	color: #fff;
+	background-color: #f00;
+	margin-right: 10px;
+}
+
+.description-badges p{
+	font-weight: 700;
+}
+
+.description-editors h5{
+	font-weight: 700;
+}
+
+.description-editors p{
+	font-size: 14px;
+}
+
+.description-featured h5{
+	font-weight: 700;
+}
+
 .logo-title {
 	display: flex;
 	align-content: center;
@@ -143,6 +179,11 @@ body{
 .title-section {
 	font-size: 16px;
 	color: #666;
+}
+.title-section-row {
+	font-size: 16px;
+	font-weight: 700;
+	color: #f00;
 }
 .text-container-left h5{
 	font-size: 14px;
@@ -301,6 +342,20 @@ body{
 		width: 40%;
 		margin-right: auto;
 		margin-left: auto;
+	}
+	.description-badges h5{
+		color: #f00;
+		font-size: 14px;
+	}
+
+	.description-badges h5 span{
+		color: #fff;
+		background-color: #f00;
+		margin-right: 10px;
+	}
+
+	.description-badges p{
+		font-weight: 700;
 	}
 
 }
