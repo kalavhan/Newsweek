@@ -4,6 +4,31 @@ body{
 	max-width: 1400px;
 	margin:auto;
 }
+a:link {
+	color: #000;
+}
+a:hover {
+	text-decoration: underline #f72210;
+}
+a:visited {
+	color:#000;
+}
+.sticker {
+	 height: 1340px;
+  position: sticky !important;
+  top: -600px;
+
+}
+.linkorange:link {
+	color: #000;
+}
+.linkorange:hover{
+	color: #f72210;
+	text-decoration: none;
+}
+.linkorange:visited{
+	color:#000;
+}
 .seeall {
 	display: flex;
 	flex-direction: column;
@@ -137,7 +162,7 @@ body{
 .inline-e{
 	display: inline;
 }
-#div-date span date{
+#div-date span label{
 	font: 16px/34px "Roboto Condensed",sans-serif;
 	color: white;
 }
@@ -175,6 +200,21 @@ body{
 .noborder {
 	border:0;
 	margin-bottom: 30px;
+}
+.nopadding {
+	padding: 0;
+}
+.nbl {
+	
+}
+.nbt {
+	border-top: 0;
+}
+.nbb {
+	border-bottom: 0;
+}
+.gray a:link{
+	color:#666;
 }
 .title-section {
 	font-size: 16px;
@@ -258,6 +298,20 @@ body{
 	font-size: 16px;
 	font-weight: 700;
 	margin-bottom: 0;
+}
+.list-description-latest p{
+	font-size: 14px;
+}
+.list-description-latest p span{
+	font-size: 15px;
+	color: #fff;
+	background-color: #f00;
+	padding: 3px;	
+}
+
+#logo-footer-svg{
+	width: 180px;
+	height: auto;
 }
 
 @media screen and (max-width: 1000px) {
@@ -433,5 +487,11 @@ body{
 		width: 90%;
 		margin-right: auto;
 		margin-left: auto;
+	}
+	.newsususcont {
+		width: 100%;
+		justify-content: center;
+		align-content: center;
+		text-align: center;
 	}
 }
