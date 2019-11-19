@@ -194,6 +194,7 @@ a:visited {
 	flex-direction: row;
 	text-align: left;
 	justify-content: flex-start;
+	max-width: 49%;
 }
 #right-med{
 	display: flex;
@@ -202,6 +203,7 @@ a:visited {
 	justify-content: flex-end;
 	align-items: center;
 	align-content: center;
+	max-width: 49%;
 }
 .span-med{
 	height: 30px;
