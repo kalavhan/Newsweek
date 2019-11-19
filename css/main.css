@@ -50,6 +50,12 @@ a:visited {
   color: #000;
 }
 
+.list-footer-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 .seeall {
   display: flex;
   flex-direction: column;
@@ -219,6 +225,7 @@ a:visited {
   flex-direction: row;
   text-align: left;
   justify-content: flex-start;
+  align-items: center;
   max-width: 49%;
 }
 
@@ -230,6 +237,7 @@ a:visited {
   align-items: center;
   align-content: center;
   max-width: 49%;
+  padding-right: 0;
 }
 
 .span-med {
@@ -243,7 +251,7 @@ a:visited {
 .signinbtn a {
   color: #fff;
   font-weight: 700;
-  font-size: 2.7vw;
+  font-size: 1.3vw;
   margin-right: 1vw;
 }
 
@@ -255,7 +263,7 @@ a:visited {
   color: #f00;
   background-color: #fff;
   font-weight: 700;
-  font-size: 2.7vw;
+  font-size: 1.3vw;
 }
 
 .signinbtn-med a:link {
@@ -294,6 +302,7 @@ a:visited {
 
 .nbt {
   border-top: 0;
+  padding: 0.25rem 0.75rem;
 }
 
 .nbb {
@@ -529,6 +538,23 @@ a:visited {
   .hide-large {
     display: flex;
     flex-direction: row;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+
+  #logo-svg-med {
+    width: auto;
+    height: 25px;
+  }
+
+  .span-med {
+    height: 30px;
+    padding-top: 18px;
+    padding-bottom: 35px;
+    font-size: 13px;
+    font-weight: 600;
   }
 
   .signsus {
