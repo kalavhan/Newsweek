@@ -3,9 +3,9 @@
 <br />
 <p align="center">
  
-  <h3 align="center">Building with Backgrounds and Gradients</h3>
+  <h3 align="center">Newsweek clone - Using bootstrap</h3>
   <p align="center">
-    Fourth Microverse Project - Backgrounds and gradients
+    Seventh Microverse Project - Using bootstrap
     <br />
     <a href="https://github.com/kalavhan/Newsweek/tree/feature-developer"><strong>Explore the docs »</strong></a>
     <br />
