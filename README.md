@@ -99,4 +99,4 @@ Project Link: [Project repo](https://github.com/kalavhan/Newsweek/)
 [contributors-url]: https://github.com/kalavhan/Newsweek/graphs/contributors
 [issues-shield]: https://img.shields.io/badge/issues-0-%2300ff00
 [issues-url]: https://github.com/kalavhan/Newsweek/issues
-[product-screenshot]: img/product_ss.jpg
+[product-screenshot]: img/product_ss.png
