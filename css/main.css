@@ -17,7 +17,18 @@ a:visited {
 	 height: 1340px;
   position: sticky !important;
   top: -600px;
+}
 
+.hide {
+	display: none;
+}
+.hide-large{
+	display: none;
+}
+.sticky-nav {
+	position: sticky;
+	top: 0;
+	z-index: 10;
 }
 .linkorange:link {
 	color: #000;
@@ -170,6 +181,44 @@ a:visited {
 	width: 20vw;
 	height: auto;
 }
+#logo-svg-med{
+	width: auto;
+	height: 30px;
+}
+#header-med{
+	background-color: #f72210;
+	margin:auto;
+}
+#left-med{
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	justify-content: flex-start;
+}
+#right-med{
+	display: flex;
+	flex-direction: row;
+	text-align: right;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+}
+.span-med{
+	height: 30px;
+	padding-top: 15px;
+	padding-bottom: 40px;
+	font-size: 16px;
+	font-weight: 700;
+}
+.signinbtn-med a:link{
+	color: #fff;
+	margin-right: 10px;
+}
+.suscribebtn-med a:link{
+	color: #f00;
+	background-color: #fff;
+	margin-right: 10px;
+}
 .navlist {
 	padding: 0;
 }
@@ -315,6 +364,10 @@ a:visited {
 }
 
 @media screen and (max-width: 1000px) {
+	.hide-large{
+	display: flex;
+	flex-direction: row;
+	}
   .hide-med {
   	display: none;
   }
@@ -414,6 +467,11 @@ a:visited {
 
 }
 @media screen and (max-width: 767px) {
+	.hide-large{
+		
+	display: flex;
+	flex-direction: row;
+	}
 	.signsus {
 		display: flex;
 		align-items: right;
