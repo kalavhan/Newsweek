@@ -124,8 +124,7 @@ a:visited {
   content: "";
   display: block;
   width: 75%;
-  background-color:
-    #f72210;
+  background-color: #f72210;
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
 }
@@ -541,7 +540,6 @@ a:visited {
   .description-badges p {
     font-weight: 700;
   }
-
 }
 
 @media screen and (max-width: 767px) {
