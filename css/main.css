@@ -632,4 +632,8 @@ a:visited {
     align-content: center;
     text-align: center;
   }
+
+  .rulerru {
+    width: 100%;
+  }
 }
