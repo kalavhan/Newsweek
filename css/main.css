@@ -1,5 +1,6 @@
 body {
   overflow-y: scroll;
+  overflow-x: hidden;
   min-width: 320px;
   max-width: 1400px;
   margin: auto;
@@ -21,6 +22,10 @@ a:visited {
   height: 1340px;
   position: sticky !important;
   top: -600px;
+}
+
+.iconfoo {
+  font-size:20px;
 }
 
 .hide {
@@ -427,6 +432,10 @@ a:visited {
     flex-direction: row;
   }
 
+  .editionslist{
+    justify-content: flex-start;
+  }
+
   .hide-med {
     display: none;
   }
@@ -540,6 +549,10 @@ a:visited {
     flex-direction: row;
   }
 
+  .iofo {
+    justify-content: flex-start;
+  }
+  
   .hide-sm {
     display: none;
   }
